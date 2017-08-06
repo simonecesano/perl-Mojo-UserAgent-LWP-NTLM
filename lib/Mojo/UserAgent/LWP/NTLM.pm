@@ -9,14 +9,6 @@ use Mojo::Message::Response;
 use Data::Dump qw/dump/;
 use Authen::NTLM;
 
-# sub new {
-#     my $self = shift;
-#     # my $user = shift;
-#     # my $password = shift;
-
-#     return bless $self, $self->SUPER::new(@_);
-# }
-
 sub request {
      my $self = shift;
     
