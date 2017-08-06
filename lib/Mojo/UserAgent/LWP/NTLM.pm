@@ -1,5 +1,7 @@
 package Mojo::UserAgent::LWP::NTLM;
 
+# ABSTRACT: NTLM-enabled Mojo::UserAgent
+
 use Mojo::Base qw/Mojo::UserAgent::LWP/;
 
 has ['user', 'password'];
